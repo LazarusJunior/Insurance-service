@@ -5,7 +5,7 @@
             font-family: Arial, sans-serif;
         }
 
-        /* Navigation */
+
         .navbar {
             display: flex;
             justify-content: space-between;
@@ -46,7 +46,7 @@
             border: none;
         }
 
-        /* Hero Section */
+
         .hero {
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png') center/cover;
             height: 100vh;
@@ -70,7 +70,7 @@
             max-width: 600px;
         }
 
-        /* Features Section */
+
         .features {
             display: flex;
             justify-content: center;
@@ -145,7 +145,6 @@
             margin-bottom: 1rem;
         }
 
-        /* Industry Section */
         .industry {
             text-align: center;
             padding: 4rem 5%;
@@ -153,7 +152,6 @@
             margin-left: 25%;
         }
 
-        /* Testimonials */
         .testimonials {
             display: flex;
             justify-content: center;
@@ -176,7 +174,6 @@
             margin-bottom: 1rem;
         }
 
-        /* Partners */
         .partners {
             display: flex;
             justify-content: center;
@@ -192,7 +189,6 @@
             height: 50px;
         }
 
-        /* Newsletter */
         .newsletter {
             background: linear-gradient(to right, #1e3c72, #982a75);
             padding: 2rem 5%;
@@ -209,7 +205,6 @@
             border-radius: 4px;
         }
 
-        /* Pricing */
         .pricing {
             padding: 4rem 5%;
             text-align: center;
@@ -222,7 +217,6 @@
         .pricing-cards {
             display: flex;
             justify-content: center;
-            /* gap: 2rem; */
             margin-top: 2rem;
         }
 
@@ -244,13 +238,11 @@
         .pricing-card2 {
             background: #1e2432;
             color: white;
-            /* transform: scale(1.15); */
             margin-top: -50px;
             padding: 2rem;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             flex: 1;
-            max-width: 300px;
             width: 100%;
             border: 3px solid #0099ff;
         }
@@ -304,14 +296,15 @@
             justify-items: left;
             margin-bottom: 20px;
         }
-.btn-trial{
-    background-color: #0099ff;
-    border: none;
-    border-radius: 5px;
-    width: 200px;
-    height: 40px;
-}
-        /* World Map Section */
+
+        .btn-trial {
+            background-color: #0099ff;
+            border: none;
+            border-radius: 5px;
+            width: 200px;
+            height: 40px;
+        }
+
         .world-map {
             background: #1e2432;
             color: white;
@@ -326,20 +319,15 @@
             height: 300px;
         }
 
-        /* Appointment Form */
         .appointment {
             padding: 4rem 5%;
             display: flex;
             gap: 2rem;
             position: relative;
-            /* margin-top: -50px; */
             background-color: #f5f5f5;
             width: 70%;
             margin-left: 15%;
             bottom: 150px;
-            /* height: 90vh; */
-            /* margin-left: 150px;
-            margin-right: 150px; */
 
         }
 
@@ -366,7 +354,6 @@
             border-radius: 4px;
         }
 
-        /* Footer */
         .footer {
             background: #f5f5f5;
             padding: 4rem 5%;
@@ -442,13 +429,16 @@
                 gap: 2rem;
             }
 
-            .pricing-card {
+            .pricing-card ,.pricing-card2 {
                 width: 100%;
                 max-width: 400px;
             }
 
             .pricing-card.featured {
                 transform: none;
+            }
+            .pricing-card2{
+                margin-top: 5px;
             }
 
             .world-map {
@@ -510,6 +500,7 @@
             .testimonial-card {
                 width: 100%;
                 max-width: 400px;
+
             }
 
             .partners {
@@ -559,8 +550,8 @@
                 text-align: center;
                 gap: 2rem;
             }
-            .features2
-            {
+
+            .features2 {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -592,11 +583,25 @@
 
             .pricing-card {
                 padding: 1rem;
+
             }
-            .features2
-            {
+
+            .pricing-card2 {
+                margin-top: 5px;
+                width: 100%;
+            }
+
+            .features2 {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+            }
+
+            .btn-contact-us {
+                background-color: #0099ff;
+                border: none;
+                border-radius: 5px;
+                width: 200px;
+                height: 40px;
             }
         }
